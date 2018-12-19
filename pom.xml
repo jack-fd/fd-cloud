@@ -7,6 +7,11 @@
     <groupId>com.mq</groupId>
     <artifactId>fd-cloud-parent</artifactId>
     <version>${fd-cloud.veriosn}</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>fd-common</module>
+        <module>fd-eureka</module>
+    </modules>
 
     <name>fd-cloud-parent</name>
     <description>fd-cloud project for Spring Cloud</description>
