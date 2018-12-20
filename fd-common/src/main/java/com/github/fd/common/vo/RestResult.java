@@ -1,4 +1,4 @@
-package com.mq.common.vo;
+package com.github.fd.common.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,7 +10,7 @@ import java.io.Serializable;
 /**
  * 返回结果封装
  *
- * @author mq
+ * @author fd
  */
 @Data
 @Builder

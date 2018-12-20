@@ -1,4 +1,4 @@
-package com.fd.auth;
+package com.github.fd.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * 权限验证服务
  *
- * @author mq
+ * @author fd
  */
 @EnableFeignClients
 @EnableDiscoveryClient

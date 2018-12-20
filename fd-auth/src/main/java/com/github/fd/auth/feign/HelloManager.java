@@ -1,6 +1,6 @@
-package com.fd.auth.feign;
+package com.github.fd.auth.feign;
 
-import com.mq.common.vo.RestResult;
+import com.github.fd.common.vo.RestResult;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * 用户权限系统 Hello
  *
- * @author mq
+ * @author fd
  */
 @FeignClient(value = "fd-modules-upms")
 public interface HelloManager {
