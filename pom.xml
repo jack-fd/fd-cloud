@@ -11,6 +11,8 @@
     <modules>
         <module>fd-common</module>
         <module>fd-eureka</module>
+        <module>fd-modules</module>
+        <module>fd-auth</module>
     </modules>
 
     <name>fd-cloud-parent</name>
@@ -63,6 +65,7 @@
 
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
