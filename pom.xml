@@ -29,6 +29,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <fd-cloud.veriosn>0.0.1-SNAPSHOT</fd-cloud.veriosn>
+        <docker.image.prefix>fd-cloud</docker.image.prefix>
         <guava.verison>27.0.1-jre</guava.verison>
         <lombok.version>1.18.4</lombok.version>
         <mysql.version>5.1.47</mysql.version>
@@ -107,4 +108,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 </project>
