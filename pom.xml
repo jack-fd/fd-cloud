@@ -13,6 +13,7 @@
         <module>fd-eureka</module>
         <module>fd-modules</module>
         <module>fd-auth</module>
+        <module>fd-generator</module>
     </modules>
 
     <name>fd-cloud-parent</name>
@@ -36,11 +37,9 @@
         <lombok.version>1.18.4</lombok.version>
         <mysql.version>5.1.47</mysql.version>
         <druid.version>1.1.10</druid.version>
-        <mybatis.spring.boot.version>1.3.2</mybatis.spring.boot.version>
-        <pagehelper.spring.boot.version>1.2.7</pagehelper.spring.boot.version>
-        <mybatisplus.version>2.1.9</mybatisplus.version>
-        <mybatisplus.spring.boot.version>1.0.5</mybatisplus.spring.boot.version>
         <swagger.version>2.7.0</swagger.version>
+        <mybatisplus.version>3.0.5</mybatisplus.version>
+        <velocity.version>1.7</velocity.version>
     </properties>
 
     <dependencies>
@@ -87,18 +86,6 @@
             </dependency>
 
             <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>${mybatis.spring.boot.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.github.pagehelper</groupId>
-                <artifactId>pagehelper-spring-boot-starter</artifactId>
-                <version>${pagehelper.spring.boot.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger2</artifactId>
                 <version>${swagger.version}</version>
@@ -108,6 +95,18 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatisplus.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity</artifactId>
+                <version>${velocity.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -40,6 +40,10 @@ public class RestResult<T> implements Serializable {
      */
     private T data;
 
+    public static RestResult<String> ok() {
+        return ok("");
+    }
+
     public static <T> RestResult<T> ok(T data) {
         RestResult<T> restResult = new RestResult<>();
         restResult.setCode(OK);
