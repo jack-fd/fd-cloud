@@ -14,6 +14,7 @@
         <module>fd-modules</module>
         <module>fd-auth</module>
         <module>fd-generator</module>
+        <module>fd-zuul</module>
     </modules>
 
     <name>fd-cloud-parent</name>
@@ -22,7 +23,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.1.RELEASE</version>
+        <version>2.0.5.RELEASE</version>
         <relativePath/>
     </parent>
 

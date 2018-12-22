@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: fd-zuul
+
+zuul:
+  routes:
+    upms:
+      path: /api/upms/**
+      serviceId: fd-modules-upms
+    hellotest:
+      path: /api/auth/**
+      serviceId: fd-auth
