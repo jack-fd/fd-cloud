@@ -132,4 +132,4 @@ fabric.properties
 .idea/httpRequests
 
 **/LOG_PATH_IS*
-/fd-config/src/main/resources/application.yml
+
