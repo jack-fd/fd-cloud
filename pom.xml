@@ -15,6 +15,7 @@
         <module>fd-auth</module>
         <module>fd-generator</module>
         <module>fd-zuul</module>
+        <module>fd-config</module>
     </modules>
 
     <name>fd-cloud-parent</name>

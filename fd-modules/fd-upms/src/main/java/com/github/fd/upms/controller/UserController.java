@@ -2,9 +2,9 @@ package com.github.fd.upms.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.github.fd.common.vo.RestResult;
-import com.github.fd.common.util.ValidatorUtils;
 import com.github.fd.common.util.Query;
+import com.github.fd.common.util.ValidatorUtils;
+import com.github.fd.common.vo.RestResult;
 import com.github.fd.upms.model.entity.User;
 import com.github.fd.upms.service.UserService;
 import io.swagger.annotations.Api;
@@ -24,7 +24,7 @@ import java.util.Arrays;
 @Slf4j
 @RestController
 @Api(tags = "用户表接口")
-@RequestMapping("/api/upms/user")
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
@@ -40,7 +40,6 @@ public class UserController {
         QueryWrapper<User> queryWrapper = query.getQueryWrapper();
         return RestResult.ok(userService.page(page, queryWrapper));
     }
-
 
     /**
      * 信息
