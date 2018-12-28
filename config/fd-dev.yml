@@ -6,7 +6,7 @@ spring:
     druid:
       url: jdbc:mysql://localhost:3306/fd?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=true
       username: '{cipher}7bbc5c14fdd99b17d1cb6154b2efa6c00d77e11d02c669b13b34a01a8864ee4d'
-      password: '{cipher}7bbc5c14fdd99b17d1cb6154b2efa6c00d77e11d02c669b13b34a01a8864ee4d'
+      password: '{cipher}180b59e5152814dd82ee7ffea5ce358073bfcb8fd02a30f8c19e3f71cb896438'
       initial-size: 10
       max-active: 100
       min-idle: 10
@@ -22,8 +22,8 @@ spring:
       stat-view-servlet:
         enabled: true
         url-pattern: /druid/*
-        login-username: admin
-        login-password: admin
+        login-username: '{cipher}b660b2d4b02eea3bdb253424125eac830dbd7604b0b8d88ea4e4a1b91c9ab2ee'
+        login-password: '{cipher}d43eca6b7d7ffc96bfb03e0bf8a70cfa1b5ffc4d94a07905f3f8f1278138bbd0'
       filter:
         stat:
           log-slow-sql: true
