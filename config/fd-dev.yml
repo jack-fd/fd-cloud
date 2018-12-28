@@ -5,8 +5,8 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     druid:
       url: jdbc:mysql://localhost:3306/fd?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=true
-      username: root
-      password: root
+      username: '{cipher}7bbc5c14fdd99b17d1cb6154b2efa6c00d77e11d02c669b13b34a01a8864ee4d'
+      password: '{cipher}7bbc5c14fdd99b17d1cb6154b2efa6c00d77e11d02c669b13b34a01a8864ee4d'
       initial-size: 10
       max-active: 100
       min-idle: 10
