@@ -20,6 +20,8 @@ spring:
       discovery:
         enabled: true
         service-id: fd-config
+      username: fd
+      password: fd123456
 
 mybatis-plus:
   mapper-locations: classpath*:mapper/*.xml

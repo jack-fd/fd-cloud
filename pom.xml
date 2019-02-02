@@ -16,6 +16,7 @@
         <module>fd-generator</module>
         <module>fd-zuul</module>
         <module>fd-config</module>
+        <module>fd-cipher</module>
     </modules>
 
     <name>fd-cloud-parent</name>

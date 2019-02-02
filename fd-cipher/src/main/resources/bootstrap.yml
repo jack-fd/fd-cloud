@@ -1,9 +1,9 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
-    name: fd-config
+    name: fd-cipher
   cloud:
     config:
       server:
@@ -16,11 +16,6 @@ spring:
           username:
           # git仓库的密码
           password:
-  security:
-    user:
-      name: fd
-      password: fd123456
-
 encrypt:
   key: fd
 
