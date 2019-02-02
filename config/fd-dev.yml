@@ -4,9 +4,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     druid:
-      url: jdbc:mysql://localhost:3306/fd?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=true
-      username: '{cipher}7bbc5c14fdd99b17d1cb6154b2efa6c00d77e11d02c669b13b34a01a8864ee4d'
-      password: '{cipher}180b59e5152814dd82ee7ffea5ce358073bfcb8fd02a30f8c19e3f71cb896438'
+      url: jdbc:mysql://101.200.149.58:3306/test1?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=true
+      username: '{cipher}d33740975dbf333010109569a9d8deaa08320d65704e94ac0ba94a2dcbd482e1'
+      password: '{cipher}555e02adda3fb6a82cc161ff01938189302a051739969a5bc17d10c11f1e77b7'
       initial-size: 10
       max-active: 100
       min-idle: 10
