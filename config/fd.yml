@@ -6,12 +6,12 @@ eureka:
     serviceUrl:
       defaultZone: http://fd:fd@localhost:8761/eureka/
 
-spring:
-  application:
-    name: fd-modules-upms
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
+#spring:
+#  application:
+#    name: fd-modules-upms
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    time-zone: GMT+8
 #  profiles:
 #    active: dev
   cloud:
